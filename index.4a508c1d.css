@@ -12038,7 +12038,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #02aab0;
+  background: #4b79a1;
 }
 
 h1, .h1 {
@@ -12076,13 +12076,13 @@ a:hover {
 }
 
 .text-color-main {
-  color: #00cdac;
-  -webkit-text-fill-color: #00cdac;
+  color: #283e51;
+  -webkit-text-fill-color: #283e51;
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
   .text-color-main {
-    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    background-image: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #0000;
@@ -12091,7 +12091,7 @@ a:hover {
 
 @media (max-width: 37.5em) {
   .text-color-main {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #283e51;
     background-image: none;
   }
 }
@@ -12123,18 +12123,18 @@ a:hover {
 }
 
 .cta-btn--hero {
-  color: #00cdac;
-  -webkit-text-fill-color: #00cdac;
+  color: #283e51;
+  -webkit-text-fill-color: #283e51;
   -webkit-border-image-slice: 1;
   border-style: solid;
   border-width: 2px;
-  border-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  border-image: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
   border-image-slice: 1;
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
   .cta-btn--hero {
-    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    background-image: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #0000;
@@ -12143,7 +12143,7 @@ a:hover {
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .cta-btn--hero {
-    color: #00cdac !important;
+    color: #283e51 !important;
   }
 
   .cta-btn--hero:hover {
@@ -12153,14 +12153,14 @@ a:hover {
 
 @media (max-width: 37.5em) {
   .cta-btn--hero {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #283e51;
     background-image: none;
-    border: 2px solid #00cdac;
+    border: 2px solid #283e51;
   }
 }
 
 .cta-btn--hero:after {
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-image: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
 }
 
 @media (max-width: 37.5em) {
@@ -12176,7 +12176,7 @@ a:hover {
 
 @media (max-width: 37.5em) {
   .cta-btn--hero:hover {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #283e51;
   }
 }
 
@@ -12194,7 +12194,7 @@ a:hover {
 }
 
 .cta-btn--resume:hover {
-  color: #00cdac;
+  color: #283e51;
   text-decoration: none;
 }
 
@@ -12232,7 +12232,7 @@ a:hover {
 }
 
 .footer__text a:hover, .footer__text a:active {
-  color: #02aab0;
+  color: #4b79a1;
   box-shadow: 0 1.5rem 4rem #00000026;
 }
 
@@ -12291,8 +12291,8 @@ section {
   color: #fff;
   height: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  background-color: #02aab0;
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-color: #4b79a1;
+  background-image: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
   border-top: 0;
   padding-bottom: 10%;
 }
@@ -12359,7 +12359,7 @@ section {
 }
 
 #about .about-wrapper__info-text--important {
-  background: #00c8a8;
+  background: #263b4e;
   margin: .3rem 0;
   padding: 0 .3rem;
   font-style: italic;
@@ -12380,7 +12380,7 @@ section {
 #contact {
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   color: #fff;
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-image: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
   margin-top: -10rem;
   margin-bottom: -1px;
   padding: 15rem 0 10rem;
@@ -12551,7 +12551,7 @@ section {
 }
 
 #projects .project-wrapper__text p > a {
-  color: #00cdac;
+  color: #283e51;
 }
 
 #projects .project-wrapper__image {

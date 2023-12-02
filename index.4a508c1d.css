@@ -12102,6 +12102,7 @@ a:hover {
 
 .cta-btn {
   z-index: 1;
+  border-radius: 0 10px;
   padding: .8rem 1.6rem;
   font-weight: bold;
   line-height: 1;
@@ -12130,7 +12131,7 @@ a:hover {
   border-width: 2px;
   border-image: linear-gradient(135deg, #284b63 0%, #153243 100%);
   border-image-slice: 1;
-  border-radius: 0 50px;
+  border-radius: 0 10px;
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -12209,6 +12210,7 @@ a:hover {
 }
 
 svg {
+  margin-bottom: 10px;
   transition: all .3s cubic-bezier(.19, 1, .22, 1);
 }
 
